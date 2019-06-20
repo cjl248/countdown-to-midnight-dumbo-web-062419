@@ -11,9 +11,10 @@ end
 
 countdown_with_sleep(int_num)
   counter = int_num
+  
   while counter != 0
-    puts "#{counter} SECOND(S)!"
     sleep(1)
+    puts "#{counter} SECOND(S)!"
     counter -= 1
   end
   "HAPPY NEW YEAR!"
